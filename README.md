@@ -64,72 +64,91 @@ courses.txt                   // Data storage file
 README.md                     // Project documentation
 statement.md                  // Problem statement & requirements
 
----
+📥 Installation & How to Run
 
-## 📥 Installation & How to Run
+Definition:
 
-1. Clone the Repository
+This section provides the necessary commands and steps to set up, compile, and execute the application locally.
+
+1. Clone the Repository (Download)
+
+Definition: Downloads a complete, local copy of the project's source code from GitHub.
+
+Action: Open your terminal and run the following commands:
 
 git clone https://github.com/goyalk01/University-Course-System.git
 cd University-Course-System
 
-2. Compile the Source Code
+
+2. Compile the Source Code (Build)
+
+Definition: Converts the Java source files (.java) into executable bytecode (.class) using the Java compiler (javac).
+
+Prerequisites: Requires Java Development Kit (JDK 17+) installed on the system.
+
+Command:
 
 javac src/com/university/management/*.java
 
-3. Run the Application
+
+3. Run the Application (Execute)
+
+Definition: Executes the compiled bytecode using the Java Virtual Machine (java), launching the console-based system.
+
+Command:
 
 java -cp src com.university.management.Main
 
----
 
-## 🧪 Testing Instructions
+Example: Running this command initiates the program, displaying the main menu (e.g., "Welcome to UCMS. Enter 1 to Add Course, 2 to List Courses...").
 
-```text
+🧪 Testing Instructions
 
-To verify the system works correctly, follow these steps:
+Definition:
 
+The testing strategy validates that the core functions of the system operate correctly and meet the expected requirements, focusing on essential CRUD (Create, Read, Update, Delete) and I/O operations.
 
 Test 1: Application Launch & Data Loading
 
-Run the program.
+Action: Run the program (java -cp src com.university.management.Main).
 
-Expected Result: Console displays "University Course Management System" and lists courses loaded from the code/file.
-
+Expected Result: Console displays "University Course Management System" and successfully lists courses loaded from the code/file.
 
 Test 2: Student Enrollment Simulation
 
-Check the bottom of the console output.
+Action: Check the bottom of the console output (or navigate the menu to the enrollment feature).
 
-Expected Result: The system detects student "Krish Goyal", registers for a specific course, and displays the fee confirmation.
-
+Expected Result: The system detects student "Krish Goyal", successfully registers for a specific course, and displays the fee confirmation.
 
 Test 3: Data Persistence
 
-Run the program once. Close it.
+Action: Run the program once, adding a new course. Close the program. Then, open the courses.txt file in your project folder.
 
-Open the courses.txt file in your folder.
+Expected Result: The courses.txt file should contain the list of courses added during the application run.
 
-Expected Result: The file should contain the list of courses added by the program.
+✨ Future Enhancements
 
----
+Definition:
 
-## 🔮 Future Enhancements
+Planned features and architectural upgrades necessary to evolve the system from a basic console application to a production-ready system.
 
-User Authentication: Login systems for Admin vs. Student.
+User Authentication: Implement robust login systems to differentiate between Admin and Student roles, ensuring restricted access to core management functions.
 
-Database Integration: replacing text files with MySQL/PostgreSQL.
+Database Integration (Data Persistence Upgrade): Replace the simple text file data persistence (courses.txt) with a relational database (e.g., MySQL/PostgreSQL) for scalability and improved data integrity.
 
-GUI: Implementing a graphical interface using JavaFX.
+GUI Implementation: Develop a graphical user interface using JavaFX or Swing to replace the current command-line interface, significantly improving user experience and accessibility.
 
-Search Functionality: Finding courses by ID or Name.
+Search Functionality: Add functionality for quickly finding courses by ID or Name within the CourseManager logic.
 
----
+🙌 Author & Course Details
 
-## 🙌 Author
-Krish Goyal
+Definition:
 
-Reg: 24BCE11020
+This section provides attribution for the project author and details related to the academic context of the assignment.
+
+Author: Krish Goyal
+
+Registration No.: 24BCE11020
 
 University: VIT Bhopal University
 
