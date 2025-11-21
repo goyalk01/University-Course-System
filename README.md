@@ -64,7 +64,7 @@ courses.txt                   // Data storage file
 README.md                     // Project documentation
 statement.md                  // Problem statement & requirements
 
-
+---
 
 ## 📥 Installation & How to Run
 
@@ -81,9 +81,11 @@ javac src/com/university/management/*.java
 
 java -cp src com.university.management.Main
 
-
+---
 
 ## 🧪 Testing Instructions
+
+```text
 
 To verify the system works correctly, follow these steps:
 
@@ -110,7 +112,7 @@ Open the courses.txt file in your folder.
 
 Expected Result: The file should contain the list of courses added by the program.
 
-
+---
 
 ## 🔮 Future Enhancements
 
@@ -122,7 +124,7 @@ GUI: Implementing a graphical interface using JavaFX.
 
 Search Functionality: Finding courses by ID or Name.
 
-
+---
 
 ## 🙌 Author
 Krish Goyal
