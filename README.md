@@ -1,6 +1,6 @@
 # University Course Management System (UCMS)
 
-A robust Java-based console application designed to streamline course management and student enrollment in universities. This project demonstrates core concepts of **Object-Oriented Programming (OOP)**, **File Handling**, **Modular Design**, and **Data Persistence**.
+This is a Java-based console application built to handle course management and student enrollment at universities effectively. The project demonstrates the usage of core concepts of **Object-Oriented Programming (OOP)**, **File Handling**, **Modular Design**, and **Data Persistence**.
 
 ![Application Output](output.jpg)
 
