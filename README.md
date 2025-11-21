@@ -63,7 +63,6 @@ src/
 courses.txt                   // Data storage file
 README.md                     // Project documentation
 statement.md                  // Problem statement & requirements
-
 ```
 ---
 
@@ -86,52 +85,39 @@ java -cp src com.university.management.Main
 
 ## 🧪 Testing Instructions
 
-
 To verify the system works correctly, follow these steps:
 
     Test 1: Application Launch & Data Loading
 
         Run the program.
-
         Expected Result: Console displays "University Course Management System" and lists courses loaded from the code/file.
-
 
     Test 2: Student Enrollment Simulation
 
         Check the bottom of the console output.
-
-        Expected Result: The system detects student "Krish Goyal", registers for a specific course, and displays the fee confirmation.
-
+        Expected Result: Student "Krish Goyal" detected → enrollment success → fee pending shown.
 
     Test 3: Data Persistence
 
-        Run the program once. Close it.
-
-        Open the courses.txt file in your folder.
-
+        Run → close → open courses.txt.
+        Expected: Courses are saved permanently.
 
 Expected Result: The file should contain the list of courses added by the program.
-
 
 ---
 
 ## 🔮 Future Enhancements
 
 User Authentication: Login systems for Admin vs. Student.
-
 Database Integration: replacing text files with MySQL/PostgreSQL.
-
 GUI: Implementing a graphical interface using JavaFX.
-
 Search Functionality: Finding courses by ID or Name.
 
 ---
 
 ## 🙌 Author
-Krish Goyal
 
-Reg: 24BCE11020
-
+Name : Krish Goyal
+Registraion Number : 24BCE11020
 University: VIT Bhopal University
-
 Course: Java Programming (flipped evaluation)
