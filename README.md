@@ -6,7 +6,7 @@ A robust Java-based console application designed to streamline course management
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 The system allows administrators and students to interact with university data efficiently. It replaces manual record-keeping with a digital solution that:
 * **Adds new courses** to the curriculum.
 * **Stores data permanently** using file handling (`courses.txt`).
@@ -17,24 +17,24 @@ Data is saved automatically, ensuring persistence across application restarts.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ✅ 1. Course Management Module
+### 1. Course Management Module
 * Add new courses with specific IDs, Names, and Fees.
 * Validates course data to ensure integrity.
 * Lists all available courses in a formatted console view.
 
-### ✅ 2. Student Enrollment Module
+### 2. Student Enrollment Module
 * Simulates a student login/detection event.
 * Processes course registration.
 * Calculates and displays pending fee details.
 
-### ✅ 3. Persistent Storage (File I/O)
+### 3. Persistent Storage (File I/O)
 * All course data is written to `courses.txt`.
 * Data is appended safely without overwriting existing records.
 * Demonstrates the use of `FileWriter` and `IOException` handling.
 
-### ✅ 4. Modular Architecture
+### 4. Modular Architecture
 * Built using strict OOP principles:
     * **Inheritance:** `Student` extends `User`.
     * **Encapsulation:** Private fields with public getters/setters.
@@ -42,14 +42,14 @@ Data is saved automatically, ensuring persistence across application restarts.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Java (JDK 17+)
 * **Concepts:** OOP, Collections Framework (ArrayList), Exception Handling, File I/O.
 * **Tools:** VS Code, Git/GitHub.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -66,7 +66,7 @@ statement.md                  // Problem statement & requirements
 ```
 ---
 
-## 📥 Installation & How to Run
+## Installation & How to Run
 
 1. Clone the Repository
 
@@ -83,7 +83,7 @@ java -cp src com.university.management.Main
 
 ---
 
-## 🧪 Testing Instructions
+## Testing Instructions
 
 To verify the system works correctly, follow these steps:
 
@@ -106,7 +106,7 @@ Expected Result: The file should contain the list of courses added by the progra
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * User Authentication: Login systems for Admin vs. Student.
 * Database Integration: replacing text files with MySQL/PostgreSQL.
@@ -115,7 +115,7 @@ Expected Result: The file should contain the list of courses added by the progra
 
 ---
 
-## 🙌 Author
+## Author
 
 Name : Krish Goyal
 
