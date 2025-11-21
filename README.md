@@ -63,44 +63,77 @@ src/
 courses.txt                   // Data storage file
 README.md                     // Project documentation
 statement.md                  // Problem statement & requirements
-📥 Installation & How to Run
+
+```
+---
+
+## 📥 Installation & How to Run
+
 1. Clone the Repository
-bash
-Copy code
+
 git clone https://github.com/goyalk01/University-Course-System.git
 cd University-Course-System
+
 2. Compile the Source Code
-bash
-Copy code
+
 javac src/com/university/management/*.java
+
 3. Run the Application
-bash
-Copy code
+
 java -cp src com.university.management.Main
-🧪 Testing Instructions
+
+---
+
+## 🧪 Testing Instructions
+
+```text
+
+To verify the system works correctly, follow these steps:
+
+
 Test 1: Application Launch & Data Loading
+
 Run the program.
-Expected: Console shows header + course list.
+
+Expected Result: Console displays "University Course Management System" and lists courses loaded from the code/file.
+
 
 Test 2: Student Enrollment Simulation
-Check the bottom of the console.
-Expected: Student “Krish Goyal” detected → enrollment success → fee pending shown.
+
+Check the bottom of the console output.
+
+Expected Result: The system detects student "Krish Goyal", registers for a specific course, and displays the fee confirmation.
+
 
 Test 3: Data Persistence
-Run → close → open courses.txt.
-Expected: Course list saved permanently.
 
-🔮 Future Enhancements
-User Authentication (Admin / Student)
+Run the program once. Close it.
 
-Database Integration (MySQL/PostgreSQL)
+Open the courses.txt file in your folder.
 
-GUI using JavaFX
+Expected Result: The file should contain the list of courses added by the program.
 
-Search Courses by ID or Name
+``` 
 
-🙌 Author
+---
+
+## 🔮 Future Enhancements
+
+User Authentication: Login systems for Admin vs. Student.
+
+Database Integration: replacing text files with MySQL/PostgreSQL.
+
+GUI: Implementing a graphical interface using JavaFX.
+
+Search Functionality: Finding courses by ID or Name.
+
+---
+
+## 🙌 Author
 Krish Goyal
+
 Reg: 24BCE11020
-VIT Bhopal University
+
+University: VIT Bhopal University
+
 Course: Java Programming (flipped evaluation)
