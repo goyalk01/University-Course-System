@@ -86,34 +86,32 @@ java -cp src com.university.management.Main
 
 ## 🧪 Testing Instructions
 
-```text
 
 To verify the system works correctly, follow these steps:
 
+    Test 1: Application Launch & Data Loading
 
-Test 1: Application Launch & Data Loading
+        Run the program.
 
-Run the program.
-
-Expected Result: Console displays "University Course Management System" and lists courses loaded from the code/file.
-
-
-Test 2: Student Enrollment Simulation
-
-Check the bottom of the console output.
-
-Expected Result: The system detects student "Krish Goyal", registers for a specific course, and displays the fee confirmation.
+        Expected Result: Console displays "University Course Management System" and lists courses loaded from the code/file.
 
 
-Test 3: Data Persistence
+    Test 2: Student Enrollment Simulation
 
-Run the program once. Close it.
+        Check the bottom of the console output.
 
-Open the courses.txt file in your folder.
+        Expected Result: The system detects student "Krish Goyal", registers for a specific course, and displays the fee confirmation.
+
+
+    Test 3: Data Persistence
+
+        Run the program once. Close it.
+
+        Open the courses.txt file in your folder.
+
 
 Expected Result: The file should contain the list of courses added by the program.
 
-``` 
 
 ---
 
