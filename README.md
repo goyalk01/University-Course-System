@@ -108,16 +108,19 @@ Expected Result: The file should contain the list of courses added by the progra
 
 ## 🔮 Future Enhancements
 
-User Authentication: Login systems for Admin vs. Student.
-Database Integration: replacing text files with MySQL/PostgreSQL.
-GUI: Implementing a graphical interface using JavaFX.
-Search Functionality: Finding courses by ID or Name.
+* User Authentication: Login systems for Admin vs. Student.
+* Database Integration: replacing text files with MySQL/PostgreSQL.
+* GUI: Implementing a graphical interface using JavaFX.
+* Search Functionality: Finding courses by ID or Name.
 
 ---
 
 ## 🙌 Author
 
 Name : Krish Goyal
+
 Registraion Number : 24BCE11020
+
 University: VIT Bhopal University
+
 Course: Java Programming (flipped evaluation)
